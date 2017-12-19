@@ -1,4 +1,4 @@
-node2vec
+Project Name
 ==============================
 
 A short description of the project.
@@ -11,8 +11,8 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     │
     ├── assets
-    │   └── sd-0.0.0       <- figures, pickles, intermediate stuff from notebook goes here
-    │   └── sd-0.0.1       <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── 0.0.0       <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── 0.0.1       <- figures, pickles, intermediate stuff from notebook goes here
     │
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -25,9 +25,11 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `0.0.0-jqp-initial-data-exploration`.
-    │
+    │   │                     the creator's initials, and a short `-` delimited description, e.g.
+    │   │                     `0.0.0-jqp-initial-data-exploration`.
+    │   └── 0.0.0-exp1                      <- ipynb, save all extra files in ../assets
+    │   └── 0.0.1-more_weight_from_exp1     <- ipynb, save all extra files in ../assets
+    │   └── 1.0.1-a_new_start               <- ipynb, save all extra files in ../assets
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
