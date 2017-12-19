@@ -1,0 +1,7 @@
+{
+  "load_extensions": {
+    "varInspector/main": true,
+    "codefolding/main": true
+  },
+  "codefolding_hotkey": "alt-w"
+}
