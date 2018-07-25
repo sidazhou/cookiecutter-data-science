@@ -151,8 +151,8 @@
 #c.NotebookApp.ignore_minified_js = False
 
 ## (bytes/sec) Maximum rate at which stream output can be sent on iopub before
-#  they are limited.
-#c.NotebookApp.iopub_data_rate_limit = 1000000
+#  they are limited. Default 100000
+c.NotebookApp.iopub_data_rate_limit = 10000000000
 
 ## (msgs/sec) Maximum rate at which messages can be sent on iopub before they are
 #  limited.
