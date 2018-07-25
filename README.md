@@ -11,14 +11,14 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     │
     ├── assets
-    │   └── 0.0.0       <- figures, pickles, intermediate stuff from notebook goes here
-    │   └── 0.0.1       <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── 0.0.0          <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── 0.0.1          <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── 1.0.1          <- figures, pickles, intermediate stuff from notebook goes here
     │
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── dataset_1      <- Contains all necessary information to reproduce the dataset
+    │   ├── dataset_2      <- Contains all necessary information to reproduce the dataset
+    │   └── dataset_3      <- Contains all necessary information to reproduce the dataset
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
@@ -30,10 +30,10 @@ Project Organization
     │   └── 0.0.0-exp1                      <- ipynb, save all extra files in ../assets
     │   └── 0.0.1-more_weight_from_exp1     <- ipynb, save all extra files in ../assets
     │   └── 1.0.1-a_new_start               <- ipynb, save all extra files in ../assets
+    │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- Using docker instead.  # generated with `pip freeze > requirements.txt`
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
