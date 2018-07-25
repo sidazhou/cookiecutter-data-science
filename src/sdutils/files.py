@@ -1,5 +1,10 @@
 import os, errno
+from os import fdopen, remove
+from tempfile import mkstemp
+from shutil import move
+
 import re
+import fileinput
 
 def ensure_dir(dir_str):
     try:
@@ -28,3 +33,15 @@ def get_asset_dir_list(asset_path="../../assets", start_dir=None, end_dir=None):
         dir_list = dir_list[dir_list.index(start_dir):]
         
     return dir_list
+
+def replace(file_path, pattern, subst):
+    #Create temp file
+    fh, abs_path = mkstemp()
+    with fdopen(fh,'w') as new_file:
+        with open(file_path) as old_file:
+            for line in old_file:
+                new_file.write(line.replace(pattern, subst))
+    #Remove original file
+    remove(file_path)
+    #Move new file
+    move(abs_path, file_path)
