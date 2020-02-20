@@ -16,4 +16,4 @@ def shell_run(cmd, my_env_variables={}):
     status = process.returncode
     os.chdir(wd)
     
-    return status, stdout, stderr
+    return status, stdout.decode('utf-8'), stderr.decode('utf-8')
