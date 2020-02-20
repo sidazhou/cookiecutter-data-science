@@ -5,7 +5,6 @@ import subprocess
 def shell_run(cmd, my_env_variables={}):
     cmd_dir = os.path.dirname(os.path.abspath(cmd))
     my_env = {**os.environ, **my_env_variables}
-    print(my_env)
     
     wd = os.getcwd()
     os.chdir(cmd_dir)
