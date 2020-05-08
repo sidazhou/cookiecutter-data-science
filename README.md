@@ -9,12 +9,6 @@ Project Organization
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    │
-    ├── assets
-    │   └── a000           <- figures, pickles, intermediate stuff from notebook goes here
-    │   └── a001           <- figures, pickles, intermediate stuff from notebook goes here
-    │   └── a002           <- figures, pickles, intermediate stuff from notebook goes here
-    │
     ├── data
     │   ├── d001-local_data          <- Contains all necessary information to reproduce the dataset
     │   ├── d002-hdfs_data           <- Contains all necessary information to reproduce the dataset
@@ -30,6 +24,11 @@ Project Organization
     │   └── e003-20200504         <- Contains any misc notes
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebook_assets
+    │   └── n000           <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── n001           <- figures, pickles, intermediate stuff from notebook goes here
+    │   └── n002           <- figures, pickles, intermediate stuff from notebook goes here
     │
     ├── notebooks          <- Jupyter notebooks.
     │   └── n001-exp1                      <- ipynb, save all extra files in ../assets
