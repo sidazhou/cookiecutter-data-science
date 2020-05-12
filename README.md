@@ -68,4 +68,8 @@ Project Organization
 
 --------
 
+- In `reports`, for summary tables, use qgird for small edits, and copy paste out/in and use subl for bigger edits
+- In `experiment_notes`, use MWeb for md editing and regulary sync to `experiment_notes` as backup and viewing
+
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
