@@ -68,6 +68,7 @@ Project Organization
 
 --------
 
+- In `notebooks`, leave n000..n099 series for temp notebooks, start with n100
 - In `reports`, for summary tables, use qgird for small edits, and copy paste out/in and use subl for bigger edits
 - In `experiment_notes`, use MWeb for md editing and regulary sync to `experiment_notes` as backup and viewing
 
