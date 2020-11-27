@@ -47,9 +47,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-
 # Sphinx documentation
 docs/_build/
 
@@ -59,12 +56,19 @@ target/
 # DotEnv configuration
 .env
 
+# Pycharm
+.idea
+
 # Database
 *.db
 *.rdb
+hdfs-data/
+local-data/
+*.csv
 
-# Pycharm
-.idea
+# misc
+tmp/
+*.log
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
