@@ -70,6 +70,15 @@ Project Organization
 - In `notebooks`, leave n000..n099 series for temp notebooks, start with n100
 - In `reports`, for summary tables, use qgird for small edits, and copy paste out/in and use subl for bigger edits
 - In `experiment_notes`, use MWeb for md editing and regulary sync to `experiment_notes` as backup and viewing
+- commit code and notebook separately
 
+        git add .
+        git reset -- *.ipynb
+        git commit -m "commiting py"
+        git add .
+        git commit -m "commiting ipynb"
+
+
+--------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

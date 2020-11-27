@@ -69,6 +69,7 @@ local-data/
 # misc
 tmp/
 *.log
+#notebook_assets
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
